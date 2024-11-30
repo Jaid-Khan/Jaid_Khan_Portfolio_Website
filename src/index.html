@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-black font-Poppins">
+    <!-- NAVBAR STARTS HERE  -->
+    <nav class="box-border items-center w-full bg-yellow-400 text-right flex justify-between px-3 md:px-6 md:py-4">
+        <div class="font-bold text-xl">JAID KHAN</div>
+        <!-- Full Menu for larger screens -->
+        <div class="hidden uppercase font-semibold md:block">
+            <a class="mx-4 inline-block px-6 py-3 bg-yellow-400 text-black font-medium rounded-lg hover:bg-black hover:text-yellow-400 transition" href="#skills">Skills</a>
+            <a class="mx-4 inline-block px-6 py-3 bg-yellow-400 text-black font-medium rounded-lg hover:bg-black hover:text-yellow-400 transition" href="#experience">Experience</a>
+            <a class="mx-4 inline-block px-6 py-3 bg-yellow-400 text-black font-medium rounded-lg hover:bg-black hover:text-yellow-400 transition" href="#projects">Projects</a>
+            <a class="mx-4 inline-block px-6 py-3 bg-yellow-400 text-black font-medium rounded-lg hover:bg-black hover:text-yellow-400 transition" href="#education">Education</a>
+            <a class="mx-4 inline-block px-6 py-3 bg-yellow-400 text-black font-medium rounded-lg hover:bg-black hover:text-yellow-400 transition" href="#about">About</a>
+        </div>
+
+        <!-- Hamburger menu for smaller screens -->
+        <div id="hamburger" class="text-4xl cursor-pointer md:hidden">&#8801</div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu"
+        class="hidden flex-col items-center bg-yellow-400 w-full absolute top-10 left-0 py-6 md:hidden z-10">
+        <a class="block my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400" href="#skills">Skills</a>
+        <a class="block my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400"
+            href="#experience">Experience</a>
+        <a class="block my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400" href="#projects">Projects</a>
+        <a class="block my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400" href="#education">Education</a>
+        <a class="block my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400" href="#about">About</a>
+    </div>
+    <!-- NAVBAR ENDS HERE  -->
+
+    <!-- MAIN STARTS HERE  -->
+    <main class="w-full text-white flex justify-center">
+        <div id="Container">
+            <!-- HERO SECTION STARTS HERE -->
+            <section class=" bg-gray-800 justify-around flex flex-col-reverse md:flex-row md:py-8 md:items-center">
+                <!-- INTRO CONTENT  -->
+                <div class="p-10 md:w-1/2">
+                    <h2 class="text-2xl text-yellow-400 font-bold my-2  md:text-4xl ">Hi, I’m Jaid Khan!</h2>
+                    <h4 class="text-xl font-semibold my-4 md:text-3xl">Front-End Developer | Tech Enthusiast</h4>
+                    <p class="my-3"><span class="font-semibold"><span class="text-2xl">W</span>elcome</span> to my
+                        portfolio! I am a Graduated Engineer in Computer Science and Engineering. I also hold a Diploma
+                        in Electronics and Telecommunication Engineering. I specialize in crafting fully responsive and
+                        visually
+                        captivating websites. With a strong foundation in HTML, CSS, JavaScript, and tools like Tailwind
+                        CSS, WordPress, and more, I bring ideas to life with clean and efficient code.</p>
+                    <p>Explore my work below and see how I combine creativity and functionality to deliver exceptional
+                        user
+                        experiences. Let’s build something amazing together!</p>
+                    <div class="flex gap-x-10 my-6">
+                        <div><a href="https://github.com/Jaid-Khan"><img
+                                    class="h-10 bg-white border-2 border-yellow-400 hover:border-white transition rounded-full"
+                                    src="/public/icons/icons-github.svg" alt=""></a></div>
+                        <div><a href="https://www.linkedin.com/in/jaid-khan-185a63201/"><img
+                                    class="h-10 border-2  border-yellow-400 hover:border-white transition rounded-md"
+                                    src="/public/icons/icons-linkedin.svg" alt=""></a></div>
+                        <div><a href="https://www.instagram.com/itz_jaid_khan/"><img
+                                    class="h-10 border-2  border-yellow-400 hover:border-white transition rounded-md"
+                                    src="/public/icons/icons-instagram.svg" alt=""></a></div>
+                    </div>
+                </div>
+                <!-- HERO IMAGE  -->
+                <div class="p-10 flex justify-center">
+                    <img class="drop-shadow-character-shadow  h-60 w-60 mt-10 rounded-full md:h-[420px] md:w-[420px] border-4 border-yellow-400 p-4  hover:border-white transition"
+                        src="/public/images/JAID-KHAN-CHARACTER-PNG.png" alt="">
+                </div>
+            </section>
+            <!-- HERO SECTION ENDS HERE -->
+
+            <!-- SKILL SECTION STARTS HERE  -->
+            <section class="bg-gray-800 py-10" id="skills">
+                <!-- SKILLS SECTION HEADING STARTS HERE -->
+                <div>
+                    <div class="px-10 text-yellow-400 font-bold text-4xl  md:py-6 text-center">
+                        Skills</div>
+                </div>
+                <!-- SKILLS SECTION HEADING ENDS HERE -->
+
+                <!-- SKILLS CONTAINER  -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-6">
+                    <!-- Grid Item 1 HTML Starts Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <img src="/public/images/html-icon.png" alt="Description 1"
+                            class="w-24 h-24 object-cover rounded mb-4">
+                        <h2 class="text-lg font-bold mb-2">HTML</h2>
+                        <ul class="list-disc list-inside ">
+                            <li> Skilled in writing semantic and well-structured HTML5 code.
+                            </li>
+                            <li>Proficient in creating forms, tables, and embedding multimedia.
+                            </li>
+                            <li>Experienced in building accessible websites adhering to W3C standards.
+                            </li>
+                            <li>Knowledgeable in using meta tags for SEO optimization.</li>
+                            <li>Capable of integrating HTML with CSS and JavaScript for dynamic websites</li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 1 HTML Ends Here-->
+
+                    <!-- Grid Item 2 CSS Starts Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <img src="/public/images/css-icon.png" alt="Description 2"
+                            class="w-24 h-24 object-cover rounded mb-4">
+                        <h2 class="text-lg font-bold mb-2">CSS</h2>
+                        <ul class="list-disc list-inside">
+                            <li>Proficient in styling webpages using CSS3, including Flexbox and Grid layouts.</li>
+                            <li> Skilled in responsive design using media queries for all device sizes.</li>
+                            <li>Experienced in creating interactive elements with transitions and animations.</li>
+                            <li>Capable of debugging and optimizing CSS for performance.</li>
+                            <li>Knowledgeable in using CSS custom properties (variables) for consistent styling.</li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 2 CSS Ends Here-->
+
+                    <!-- Grid Item 3 JavaScript Starts Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <img src="/public/images/js-image.png" alt="Description 3"
+                            class="w-20 h-20 object-cover rounded mb-4">
+                        <h2 class="text-lg font-bold mb-2">JavaScript</h2>
+                        <ul class="list-disc list-inside ">
+                            <li>Proficient in using variables and understanding data types</li>
+                            <li>Familiar with comparison operators, including strict comparisons.</li>
+                            <li>Skilled in implementing arithmetic and logical operations.</li>
+                            <li>Experienced in using conditional statements (if, if-else, and if-elif-else).</li>
+                            <li>Knowledgeable in using loops like for, while, and do-while for iteration</li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 3 JavaScript Ends Here-->
+
+                    <!-- Grid Item 4 Bootstrap Starts Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <img src="/public/images/bootstrap.png" alt="Description 3"
+                            class="w20 h-20 object-cover bg-white rounded-2xl mb-4">
+                        <h2 class="text-lg font-bold mb-2">Bootstrap</h2>
+                        <ul class="list-disc list-inside">
+                            <li>Proficient in customizing components like navbars, cards, and modals.</li>
+                            <li>Experienced in building mobile-first websites using Bootstrap utilities.</li>
+                            <li>Skilled in using Bootstrap’s grid system for responsive design.</li>
+                            <li> Knowledgeable in extending Bootstrap styles with custom CSS.
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 4 Bootstrap Ends Here-->
+
+                    <!-- Grid Item 6 Tailwind CSS Starts Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <img src="/public/images/Tailwind CSS.png" alt="Description 3"
+                            class="w-20 h-20 object-cover rounded mb-4">
+                        <h2 class="text-lg font-bold mb-2">Tailwind CSS</h2>
+                        <ul class="list-disc list-inside">
+                            <li> Proficient in using utility-first classes to build modern UI designs.</li>
+                            <li>Skilled in customizing the Tailwind configuration for unique styles.</li>
+                            <li>Experienced in creating responsive layouts with minimal code.</li>
+                            <li>Knowledgeable in optimizing Tailwind projects for production builds.</li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 6 Tailwind CSS Starts Here-->
+
+                    <!-- Grid Item 6 Git & Github Starts Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <div class="flex gap-4">
+                            <img src="/public/images/git.png" alt="Description 3"
+                                class="w-20 h-20 object-cover rounded mb-4">
+                            <img src="/public/images/github.png" alt="Description 3"
+                                class="w-20 h-20 bg-white object-cover rounded-full border-2 mb-4">
+                        </div>
+                        <h2 class="text-lg font-bold mb-2">Git & Github</h2>
+                        <ul class="list-disc list-inside">
+                            <li>Skilled in using Git for version control and managing project history.</li>
+                            <li>Proficient in creating and managing branches for collaboration.</li>
+                            <li> Experienced in resolving merge conflicts effectively.</li>
+                            <li>Knowledgeable in using GitHub for repository management and pull requests.</li>
+                            <li>Familiar with deploying projects from GitHub to hosting platforms like Netlify.</li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 6 Git & Github Ends Here-->
+
+                    <!-- Grid Item 7 VS Code Starts Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <img src="/public/images/vscode.png" alt="Description 3"
+                            class="w-20 h-20 object-cover rounded mb-4">
+                        <h2 class="text-lg font-bold mb-2">VS Code</h2>
+                        <ul class="list-disc list-inside">
+                            <li>Proficient in setting up and configuring Visual Studio Code for web development
+                                projects.</li>
+                            <li>Skilled in using extensions like Prettier, Live Server, and GitLens to enhance
+                                productivity.</li>
+                            <li>Adept at using VS Code for developing responsive front-end projects with HTML, CSS, and
+                                Tailwind CSS..</li>
+                            <li>Experienced in managing version control with integrated Git support in VS Code..</li>
+                            <li>Familiar with terminal operations and task automation within the VS Code environment.
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 7 VS Code Ends Here-->
+
+                    <!-- Grid Item 8 Wordpress Starts Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <img src="/public/images/wordpress.png" alt="Description 3"
+                            class="w-20 h-20 object-cover rounded mb-4">
+                        <h2 class="text-lg font-bold mb-2">Wordpress</h2>
+                        <ul class="list-disc list-inside">
+                            <li>Experienced in creating custom themes and templates.</li>
+                            <li>Skilled in configuring and optimizing plugins for added functionality.</li>
+                            <li>Proficient in designing responsive WordPress sites for various devices.</li>
+                            <li>Knowledgeable in using SEO plugins like Yoast to improve visibility.</li>
+                            <li>Familiar with setting up WooCommerce and managing e-commerce sites.</li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 8 Wordpress Ends Here-->
+
+                    <!-- Grid Item 9 Canva Starts Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <img src="/public/images/canva.png" alt="Description 3"
+                            class="w-20 h-20 bg-white rounded-full object-cover mb-4">
+                        <h2 class="text-lg font-bold mb-2">Canva</h2>
+                        <ul class="list-disc list-inside">
+                            <li>Skilled in designing professional social media graphics and posters.</li>
+                            <li>Proficient in creating custom templates for branding projects.</li>
+                            <li>Knowledgeable in designing presentations and infographics.</li>
+                            <li>Experienced in using advanced tools like background remover and grids.</li>
+                            <li> Familiar with optimizing Canva designs for print and web.</li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 9 Canva Ends Here-->
+
+                    <!-- Grid Item 10 Windows & Linux Starts Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <div class="flex gap-4">
+                            <img src="/public/images/microsoft-windows.png" alt="Description 3"
+                                class="w-20 h-20 object-cover rounded mb-4">
+                            <img src="/public/images/linux.png" alt="Description 3"
+                                class="w-20 h-20 object-cover rounded mb-4">
+                        </div>
+                        <h2 class="text-lg font-bold mb-2">Windows & Linux</h2>
+                        <ul class="list-disc list-inside">
+                            <li>Proficient in using Windows operating systems for development and daily tasks.</li>
+                            <li>Experienced in troubleshooting software and hardware issues.</li>
+                            <li>Knowledge of virtualization tools like VirtualBox and VMware on Windows.</li>
+                            <li>Skilled in terminal-based navigation and command-line operations.</li>
+                            <li>Knowledge of package management tools (e.g., apt, yum) for software installation and
+                                updates.</li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 10 Windows & Linux Ends Here-->
+
+                    <!-- Grid Item 11 Netlify Starts Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <img src="/public/images/icon-netlify.png" alt="Description 2"
+                            class="w-40 h-20 object-cover rounded mb-4">
+                        <h2 class="text-lg font-bold mb-2">Netlify</h2>
+                        <ul class="list-disc list-inside">
+                            <li>Skilled in deploying static and dynamic websites using Netlify</li>
+                            <li>Proficient in connecting GitHub repositories for continuous deployment.</li>
+                            <li>Knowledgeable in using Netlify functions for serverless applications.</li>
+                            <li>Familiar with optimizing site performance and analytics on Netlify.</li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 11 Netlify Ends Here-->
+
+                    <!-- Grid Item 12 VM (Virtual Machines) Strats Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <img src="/public/images/vm-VirtualBox.png" alt="Description 2"
+                            class="w-20 h-20 object-cover rounded mb-4">
+                        <h2 class="text-lg font-bold mb-2">VM (Virtual Machines)
+                        </h2>
+                        <ul class="list-disc list-inside">
+                            <li>Skilled in deploying static and dynamic websites using Netlify.</li>
+                            <li>Proficient in connecting GitHub repositories for continuous deployment.</li>
+                            <li>Knowledgeable in using Netlify functions for serverless applications.</li>
+                            <li>Familiar with optimizing site performance and analytics on Netlify.</li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 12 VM (Virtual Machines) Ends Here-->
+
+                    <!-- Grid Item 13 Google Workspace (G Suite) Starts Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <img src="/public/images/Google_icon.png" alt="Description 2"
+                            class="w-20 h-20 object-cover rounded mb-4">
+                        <h2 class="text-lg font-bold mb-2">Google Workspace (G Suite)
+                        </h2>
+                        <ul class="list-disc list-inside">
+                            <li>Proficient in Google Docs for creating, formatting, and collaboratively editing
+                                documents.</li>
+                            <li>Skilled in Google Sheets for data analysis, advanced formulas, and managing spreadsheets
+                                efficiently.</li>
+                            <li>Experienced in Google Slides for designing professional and impactful presentations.
+                            </li>
+                            <li>Expertise in Google Drive for file organization, sharing, and real-time collaboration.
+                            </li>
+                            <li>Proficient in using Gmail and Google Calendar for effective communication and
+                                scheduling.</li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 13 Google Workspace (G Suite) Ends Here-->
+
+                    <!-- Grid Item 14 Microsoft Office Suite Starts Here-->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <img src="/public/images/microsft-office.png" alt="Description 2"
+                            class="w-20 h-20 object-cover rounded mb-4">
+                        <h2 class="text-lg font-bold mb-2">Microsoft Office Suite
+                        </h2>
+                        <ul class="list-disc list-inside">
+                            <li>Proficient in Microsoft Word for creating, formatting, and editing professional
+                                documents.</li>
+                            <li>Skilled in Microsoft Excel for data analysis, advanced formulas, pivot tables, and
+                                charts.</li>
+                            <li>Experienced in Microsoft PowerPoint for designing visually appealing and impactful
+                                presentations.</li>
+                            <li>Expertise in OneDrive for cloud-based file storage, organization, and sharing.</li>
+                            <li>Proficient in using Microsoft Outlook for email management, calendar scheduling, and
+                                task organization.</li>
+                        </ul>
+                    </div>
+                    <!-- Grid Item 14 Microsoft Office Suite Ends Here-->
+                </div>
+            </section>
+            <!-- SKILL SECTION ENDS HERE -->
+
+            <!-- EXPERIENCE SECTION STARTS HERE  -->
+            <section class="bg-gray-800 py-10" id="experience">
+                <div class="container mx-auto px-6">
+                    <h2 class="text-4xl font-bold text-center mb-6 text-yellow-400">Experience</h2>
+
+                    <!-- BSNL Experience Card -->
+                    <div class="flex flex-col md:flex-row items-center bg-gray-800 overflow-hidden">
+                        <!-- Company Logo -->
+                        <div class="w-full md:w-1/3 p-6 bg-gray-800  flex items-center justify-center">
+                            <img src="/public/images/bsnl-logo.png" alt="BSNL Logo"
+                                class="bg-white p-8 h-22 md:h-46 rounded-lg ">
+                        </div>
+                        <!-- Experience Details -->
+                        <div class="w-full md:w-2/3 p-6">
+                            <h3 class="text-2xl font-bold mb-2">Network Technician Apprentice</h3>
+                            <p class="mb-4"><strong>Bharat Sanchar Nigam Limited (BSNL), Bhopal</strong></p>
+                            <p class=" mb-4">
+                                Completed a one-year apprenticeship, gaining expertise in telecommunication systems and
+                                network infrastructure.
+                                Developed problem-solving skills while working on large-scale projects in a technical
+                                environment.
+                            </p>
+                            <!-- Key Responsibilities -->
+                            <ul class="list-disc list-inside space-y-2">
+                                <li>Configured and maintained networking devices such as routers and switches.</li>
+                                <li>Collaborated with senior engineers to troubleshoot network issues and optimize
+                                    systems.</li>
+                                <li>Performed testing, installation, and monitoring of broadband and telecommunication
+                                    systems.</li>
+                                <li>Documented processes and created technical guides for operational use.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Certification Card -->
+                    <div class="flex flex-col md:flex-row items-center rounded-lg overflow-hidden">
+                        <!-- Certification Image -->
+                        <div class="w-full md:w-1/3 p-6 flex items-center justify-center">
+                            <img src="/public/images/experience-certificate.jpg" alt="Certification"
+                                class="p-4 h-22 md:h-46 rounded-lg ">
+                        </div>
+                        <!-- Certification Details -->
+                        <div class="w-full md:w-2/3 p-6">
+                            <h3 class="text-2xl font-bold mb-2">Certificate of Proficiency</h3>
+                            <p class="mb-4"><strong>Electronics & Telecommunication Engineering</strong></p>
+                            <p class="">
+                                Awarded by the Board of Apprenticeship Training (Western Region), Government of
+                                India,
+                                this certification recognizes advanced knowledge in electronics and telecommunication
+                                engineering.
+                                It complements my professional experience by highlighting my commitment to technical
+                                excellence and learning.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- EXPERIENCE SECTION ENDS HERE  -->
+
+            <!-- PROJECT SECTION STARTS HERE  -->
+            <section class="bg-gray-800 py-10" id="projects">
+                <div class="container mx-auto px-6">
+                    <h2 class="text-4xl font-bold text-center mb-6 text-yellow-400">Projects</h2>
+                </div>
+                <!-- PROJECT CONTAINER -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-6">
+                    <!-- PROJECT-01 -->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <div class="flex flex-col items-center gap-4">
+                            <img src="/projects/LOG-IN 001/previews/Desktop-Preview.jpg" alt="Description 3"
+                                class="md:h-44 ">
+                            <p class="mb-4 font-semibold text-yellow-400">Desktop View</p>
+                            <img src="/projects/LOG-IN 001/previews/Mobile-Preview.jpg" alt="Description 3"
+                                class="md:h-56 ">
+                            <p class="mb-4 font-semibold text-yellow-400">Mobile View</p>
+                        </div>
+                        <h2 class="text-lg font-bold mb-2">Log In</h2>
+                        <p>This project is a fully responsive login page built using HTML and CSS. It is designed to
+                            provide a seamless user experience across various devices, including desktops, tablets, and
+                            mobile phones.</p>
+                    </div>
+                    <!-- PROJECT-02 -->
+                    <div
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        <div class="flex flex-col items-center gap-4">
+                            <img src="/projects/LOG-IN 002/preview/desktop-preview.jpg" alt="Description 3"
+                                class="md:h-44 ">
+                            <p class="mb-4 font-semibold text-yellow-400">Desktop View</p>
+                            <img src="/projects/LOG-IN 002/preview/mobile-preview.jpg" alt="Description 3"
+                                class="md:h-56 ">
+                            <p class="mb-4 font-semibold text-yellow-400">Mobile View</p>
+                        </div>
+                        <h2 class="text-lg font-bold mb-2">Log In</h2>
+                        <p>This login page is a modern, responsive interface designed for Zeroid, providing a secure and
+                            user-friendly experience. It is built using HTML and CSS, featuring a clean and minimalist
+                            design with a strong focus on functionality and aesthetics.</p>
+                    </div>
+                    <!-- PROJECT-03 -->
+                </div>
+            </section>
+            <!-- PROJECT SECTION END HERE  -->
+
+            <!-- EDUCATION SECTION STARTS HERE  -->
+            <section class="bg-gray-800 py-12" id="education">
+                <div class="max-w-2xl mx-auto px-4 md:px-8">
+                  <h2 class="text-4xl text-yellow-400 font-bold text-center mb-10">Education</h2>
+                  <div class="space-y-8 flex flex-col ">
+                    <!-- Bachelor's Degree -->
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-8">
+                      <div class="flex items-center justify-center text-white font-bold text-xl ">
+                        <img class="w-28 h-28 p-2 bg-green-500 rounded-md border-2 border-yellow-400" src="/public/images/graduated.png" alt="">
+                      </div>
+                      <div>
+                        <h3 class="text-2xl font-semibold">Bachelor of Technology in Computer Science</h3>
+                        <p class="">University: Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal</p>
+                        <p class="text-sm">Aug 2021 – Jun 2024 | CGPA: 7.61</p>
+                      </div>
+                    </div>
+                    <!-- Diploma -->
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-8">
+                        <div class="flex items-center justify-center ">
+                            <img class="w-28 h-28 md:w-36 p-2 bg-green-500 rounded-md border-2 border-yellow-400" src="/public/images/diploma.png" alt="">
+                          </div>
+                      <div>
+                        <h3 class="text-2xl font-semibold">Diploma in Electronics and Telecommunication Engineering</h3>
+                        <p class="">University: Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal</p>
+                        <p class="text-sm">Aug 2018 – Jun 2021 | CGPA: 7.57</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            <!-- EDUCATION SECTION ENDS HERE  -->
+
+            <!-- ABOUT ME SECTION STARTS HERE  -->
+            <section class="bg-gray-800 py-16" id="about">
+                <div class="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20">
+                  <h2 class="text-4xl font-bold text-center text-yellow-400 mb-10">About Me</h2>
+                  <div class="flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-12">
+                    <!-- Profile Image -->
+                    <div class="flex-shrink-0 w-48 h-48  rounded-full overflow-hidden shadow-lg">
+                      <img src="/public/images/JAID-KHAN-CHARACTER-PNG.png" alt="Profile Picture" class="drop-shadow-character-shadow w-full h-full object-cover p-2 border-2 border-yellow-400 rounded-full">
+                    </div>
+                    <!-- About Me Intro-->
+                    <div>
+                      <p class="text-lg  leading-relaxed mb-4">
+                        Hello! I'm <span class="font-semibold">Jaid Khan</span>, a passionate and results-driven web developer with a strong foundation in 
+                        <span class="font-semibold">HTML, CSS, JavaScript, and modern frameworks</span>. I had done Bachelor of Technology in Computer Science, 
+                        I thrive on crafting seamless, responsive, and visually appealing user experiences.
+                      </p>
+                      <p class="text-lg  leading-relaxed mb-4">
+                        My journey began with a Diploma in Electronics and Telecommunication Engineering, where I honed my problem-solving mindset. Later, during my apprenticeship as a Network Technician at BSNL, I gained hands-on experience in real-world tech environments, solidifying my understanding of networking and systems.
+                      </p>
+                      <p class="text-lg  leading-relaxed mb-4">
+                        Today, I specialize in creating fully responsive, pixel-perfect websites and web applications. Whether it’s building modern front-end designs or deploying websites using platforms like Netlify, I’m constantly exploring new technologies to push my limits.
+                      </p>
+                      <p class="text-lg  leading-relaxed mb-4">
+                        My portfolio showcases a variety of projects that reflect my creativity and technical acumen. With skills in tools like Tailwind CSS, Git, WordPress, and Linux, I aim to deliver robust and scalable solutions that meet user needs and business goals.
+                      </p>
+                      <p class="text-lg  leading-relaxed">
+                        I'm not just passionate about coding but also committed to learning and growing. My goal is to collaborate with innovative teams and contribute to meaningful projects that make a difference.
+                      </p>
+                      <a href="#projects" class="inline-block mt-6 px-6 py-3 bg-yellow-400 text-black font-medium rounded-lg shadow-lg hover:bg-black hover:text-yellow-400 transition">
+                        View My Projects
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            <!-- ABOUT ME SECTION STARTS HERE  -->
+
+            
+        </div>
+    </main>
+    <!-- MAIN ENDS HERE  -->
+    <script src="/src/script.js"></script>
+</body>
+
+</html>
