@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{html,js}'],
+  css: ["./src/output.css"],
   theme: {
     extend: {
       // Custom Shadow 
