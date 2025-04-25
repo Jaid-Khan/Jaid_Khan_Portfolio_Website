@@ -21,9 +21,9 @@
             <a class="mx-4 inline-block px-4 py-3 bg-yellow-400 text-black font-medium rounded-lg hover:bg-black hover:text-yellow-400 transition"
                 href="#experience">Experience</a>
             <a class="mx-4 inline-block px-4 py-3 bg-yellow-400 text-black font-medium rounded-lg hover:bg-black hover:text-yellow-400 transition"
-                href="#certifications">Certifications</a>
-            <a class="mx-4 inline-block px-4 py-3 bg-yellow-400 text-black font-medium rounded-lg hover:bg-black hover:text-yellow-400 transition"
                 href="#projects">Projects</a>
+            <a class="mx-4 inline-block px-4 py-3 bg-yellow-400 text-black font-medium rounded-lg hover:bg-black hover:text-yellow-400 transition"
+                href="#certifications">Certifications</a>
             <a class="mx-4 inline-block px-4 py-3 bg-yellow-400 text-black font-medium rounded-lg hover:bg-black hover:text-yellow-400 transition"
                 href="#education">Education</a>
             <a class="mx-4 inline-block px-4 py-3 bg-yellow-400 text-black font-medium rounded-lg hover:bg-black hover:text-yellow-400 transition"
@@ -38,9 +38,11 @@
     <div id="mobile-menu"
         class="hidden flex-col items-center bg-yellow-400 w-full absolute top-10 left-0 py-6 md:hidden z-10">
         <a class="block my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400" href="#skills">Skills</a>
-        <a class="block my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400" href="#experience">Experience</a>
-        <a class="block my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400" href="#certifications">Certifications</a>
+        <a class="block my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400"
+            href="#experience">Experience</a>
         <a class="block my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400" href="#projects">Projects</a>
+        <a class="block my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400"
+            href="#certifications">Certifications</a>
         <a class="block my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400" href="#education">Education</a>
         <a class="block my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400" href="#about">About</a>
     </div>
@@ -64,13 +66,13 @@
                         user
                         experiences. Let’s build something amazing together!</p>
                     <div class="flex gap-x-10 my-6">
-                        <div><a href="https://github.com/Jaid-Khan"><img
+                        <div><a href="https://github.com/Jaid-Khan" target="_blank"><img
                                     class="h-10 bg-white border-2 border-yellow-400 hover:border-white transition rounded-full"
                                     src="assets/icons/icons-github.svg" alt=""></a></div>
-                        <div><a href="https://www.linkedin.com/in/jaid-khan-185a63201/"><img
+                        <div><a href="https://www.linkedin.com/in/jaid-khan-185a63201/" target="_blank"><img
                                     class="h-10 border-2  border-yellow-400 hover:border-white transition rounded-md"
                                     src="assets/icons/icons-linkedin.svg" alt=""></a></div>
-                        <div><a href="https://www.instagram.com/itz_jaid_khan/"><img
+                        <div><a href="https://www.instagram.com/itz_jaid_khan/" target="_blank"><img
                                     class="h-10 border-2  border-yellow-400 hover:border-white transition rounded-md"
                                     src="assets/icons/icons-instagram.svg" alt=""></a></div>
                     </div>
@@ -410,74 +412,115 @@
             <!-- PROJECTS SECTION STARTS HERE  -->
             <section class="bg-gray-800 py-12 px-6">
                 <h2 class="text-3xl text-yellow-400 font-bold text-center mb-10">My Projects</h2>
-            
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            
-                  <!-- Project Card 01 Starts Here-->
-                  <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
-                    <img src="https://via.placeholder.com/400x200" alt="Project Screenshot" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                      <h3 class="text-xl font-semibold mb-2">Project One</h3>
-                      <p class="text-sm text-gray-600 mb-4">A brief description of the project goes here. What it does, tech used, etc.</p>
-                      <div class="flex space-x-4">
-                        <a href="https://yourproject1.netlify.app" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Live Demo</a>
-                        <a href="https://github.com/yourusername/project1" target="_blank" class="text-blue-600 border border-blue-600 px-4 py-2 rounded hover:bg-blue-50 transition">Code</a>
-                      </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2  p-6 gap-8">
+
+                    <!-- Project Card 01 Starts Here-->
+                    <div
+                        class="text-white border-yellow-400 border-2 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow flex flex-col items-center p-2">
+                        <img src="./assets/images/project01-preview-img.jpg" alt="Project Screenshot"
+                            class="w-68 h-56 object-cover rounded-md">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold mb-2"></h3>
+                            <p class="text-sm mb-4">A responsive login page built using HTML and CSS.
+                                Designed with a mobile-first approach to ensure compatibility across all devices.
+                                Features a clean, modern UI with user-friendly layout and styling.</p>
+                            <div class="flex space-x-4">
+                                <a href="https://jaidkhanweb-login01.netlify.app/" target="_blank"
+                                    class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-black hover:text-yellow-400 transition">Live
+                                    Demo</a>
+                                <a href="https://github.com/Jaid-Khan/LOG-IN-PAGE-0001" target="_blank"
+                                    class="text-yellow-400 border border-yellow-400 px-4 py-2 rounded  hover:border-white transition">Code</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-            
-                  <!-- Project Card 01 Ends Here-->
-            
-                  
-                  <!-- Project Card 02 Starts Here-->
-                  <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
-                    <img src="https://via.placeholder.com/400x200" alt="Project Screenshot" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                      <h3 class="text-xl font-semibold mb-2">Project One</h3>
-                      <p class="text-sm text-gray-600 mb-4">A brief description of the project goes here. What it does, tech used, etc.</p>
-                      <div class="flex space-x-4">
-                        <a href="https://yourproject1.netlify.app" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Live Demo</a>
-                        <a href="https://github.com/yourusername/project1" target="_blank" class="text-blue-600 border border-blue-600 px-4 py-2 rounded hover:bg-blue-50 transition">Code</a>
-                      </div>
+
+                    <!-- Project Card 01 Ends Here-->
+
+
+                    <!-- Project Card 02 Starts Here-->
+                    <div
+                        class="text-white border-yellow-400 border-2 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow  flex flex-col items-center">
+                        <div class="flex gap-2 p-2 overflow-x-scroll scroll-smooth" style="scrollbar-width:none ">
+                            <img src="./assets/images/project02-preview-img.jpg" alt="Project Screenshot"
+                                class="md:w-68 md:h-56 object-cover rounded-md">
+                            <img src="./assets/images/project02-preview02-img.jpg" alt="Project Screenshot"
+                                class="md:w-68 md:h-56 object-cover rounded-md">
+                            <img src="./assets/images/project02-preview03-img.jpg" alt="Project Screenshot"
+                                class="md:w-68 md:h-56 object-cover rounded-md">
+                            <img src="./assets/images/project02-preview04-img.jpg" alt="Project Screenshot"
+                                class="md:w-68 md:h-56 object-cover rounded-md">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold mb-2"></h3>
+                            <p class="text-sm mb-4">A responsive multi-page Car Rental website built using HTML and CSS.
+                                Includes essential pages like Register, Sign In, Sign Up, and Forgot Password.
+                                Designed with a clean layout and mobile-friendly interface for seamless user experience.
+                            </p>
+                            <div class="flex space-x-4">
+                                <a href="https://jaidkhanweb-login01.netlify.app/" target="_blank"
+                                    class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-black hover:text-yellow-400 transition">Live
+                                    Demo</a>
+                                <a href="https://github.com/Jaid-Khan/LOG-IN-PAGE-0001" target="_blank"
+                                    class="text-yellow-400 border border-yellow-400 px-4 py-2 rounded  hover:border-white transition">Code</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-            
-                  <!-- Project Card 02 Ends Here-->
-            
-                  
-                  <!-- Project Card 03 Starts Here-->
-                  <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
-                    <img src="https://via.placeholder.com/400x200" alt="Project Screenshot" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                      <h3 class="text-xl font-semibold mb-2">Project One</h3>
-                      <p class="text-sm text-gray-600 mb-4">A brief description of the project goes here. What it does, tech used, etc.</p>
-                      <div class="flex space-x-4">
-                        <a href="https://yourproject1.netlify.app" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Live Demo</a>
-                        <a href="https://github.com/yourusername/project1" target="_blank" class="text-blue-600 border border-blue-600 px-4 py-2 rounded hover:bg-blue-50 transition">Code</a>
-                      </div>
+
+                    <!-- Project Card 02 Ends Here-->
+
+
+                    <!-- Project Card 03 Starts Here-->
+                    <div
+                        class="text-white border-yellow-400 border-2 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow flex flex-col items-center p-2">
+                        <img src="./assets/images/project03-preview-img.jpg" alt="Project Screenshot"
+                            class="md:w-68 md:h-56 object-cover rounded-md">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold mb-2"></h3>
+                            <p class="text-sm mb-4">A modern, responsive login page designed with HTML and CSS for a
+                                smooth user experience.
+                                Features a clean UI with intuitive layout and appealing design elements.
+                                Includes social sign-up options via Google, Facebook, and LinkedIn for user convenience.
+                            </p>
+                            <div class="flex space-x-4">
+                                <a href="https://jaidkhanweb-login01.netlify.app/" target="_blank"
+                                    class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-black hover:text-yellow-400 transition">Live
+                                    Demo</a>
+                                <a href="https://github.com/Jaid-Khan/LOG-IN-PAGE-0001" target="_blank"
+                                    class="text-yellow-400 border border-yellow-400 px-4 py-2 rounded  hover:border-white transition">Code</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-            
-                  <!-- Project Card 03 Ends Here-->
-            
-                  
-                  <!-- Project Card 04 Starts Here-->
-                  <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow">
-                    <img src="https://via.placeholder.com/400x200" alt="Project Screenshot" class="w-full h-48 object-cover">
-                    <div class="p-4">
-                      <h3 class="text-xl font-semibold mb-2">Project One</h3>
-                      <p class="text-sm text-gray-600 mb-4">A brief description of the project goes here. What it does, tech used, etc.</p>
-                      <div class="flex space-x-4">
-                        <a href="https://yourproject1.netlify.app" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Live Demo</a>
-                        <a href="https://github.com/yourusername/project1" target="_blank" class="text-blue-600 border border-blue-600 px-4 py-2 rounded hover:bg-blue-50 transition">Code</a>
-                      </div>
+
+                    <!-- Project Card 03 Ends Here-->
+
+
+                    <!-- Project Card 04 Starts Here-->
+                    <div
+                        class="text-white border-yellow-400 border-2 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow flex flex-col items-center p-2">
+                        <img src="./assets/images/project04-preview-img.jpg" alt="Project Screenshot"
+                            class="md:w-68 md:h-56 object-contain rounded-md">
+                        <div class="p-4">
+                            <h3 class="text-xl font-semibold mb-2"></h3>
+                            <p class="text-sm mb-4">A responsive Cyber Cafe website built using HTML and TailwindCSS
+                                with a clean and modern UI.
+                                Offers online services such as bill payments, money withdrawal, and various digital
+                                utilities.
+                                Optimized for all devices to ensure fast, accessible, and user-friendly experiences.</p>
+                            <div class="flex space-x-4">
+                                <a href="https://jaidkhanweb-login01.netlify.app/" target="_blank"
+                                    class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-black hover:text-yellow-400 transition">Live
+                                    Demo</a>
+                                <a href="https://github.com/Jaid-Khan/LOG-IN-PAGE-0001" target="_blank"
+                                    class="text-yellow-400 border border-yellow-400 px-4 py-2 rounded  hover:border-white transition">Code</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-            
-                  <!-- Project Card 01 Ends Here-->
-            
+
+                    <!-- Project Card 04 Ends Here-->
+
                 </div>
-              </section>
+            </section>
             <!-- PROJECTS SECTION ENDS HERE  -->
 
             <!-- CERTIFICATIONS SECTION STARTS HERE -->
@@ -491,15 +534,16 @@
                 <!-- CERTIFICATIONS SECTION HEADING ENDS HERE -->
 
                 <!-- CERTIFICATIONS CONTAINER -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-6 p-6">
                     <!-- Certification 1: JavaScript Bootcamp -->
                     <div
                         class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
-                        <img src="assets/images/javascript-bootcamp-certification.jpg" alt="JavaScript Bootcamp Certificate"
-                            class="w-34 h-34 object-cover rounded mb-4">
+                        <img src="assets/images/javascript-bootcamp-certification.jpg"
+                            alt="JavaScript Bootcamp Certificate" class="w-34 h-34 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">JavaScript Bootcamp</h2>
                         <p class="text-center text-white">Completed JavaScript Bootcamp from LetsUpgrade.</p>
-                        <a href="assets/images/javascript-bootcamp-certification.jpg" target="_blank" class="mt-4 text-yellow-400 underline">View
+                        <a href="assets/images/javascript-bootcamp-certification.jpg" target="_blank"
+                            class="mt-4 text-yellow-400 underline">View
                             Certificate</a>
                     </div>
                     <!-- Certification 1 Ends Here -->
@@ -511,7 +555,8 @@
                             class="w-34 h-34 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">Git & GitHub</h2>
                         <p class="text-center text-white">Completed Git & GitHub certification from LetsUpgrade.</p>
-                        <a href="assets/images/git&github-certification.jpg" target="_blank" class="mt-4 text-yellow-400 underline">View
+                        <a href="assets/images/git&github-certification.jpg" target="_blank"
+                            class="mt-4 text-yellow-400 underline">View
                             Certificate</a>
                     </div>
                     <!-- Certification 2 Ends Here -->
@@ -523,7 +568,8 @@
                             class="w-34 h-34 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">HTML & CSS Bootcamp</h2>
                         <p class="text-center text-white">Completed HTML & CSS Bootcamp from LetsUpgrade.</p>
-                        <a href="assets/images/html&css-bootcamp-certification.jpg" target="_blank" class="mt-4 text-yellow-400 underline">View
+                        <a href="assets/images/html&css-bootcamp-certification.jpg" target="_blank"
+                            class="mt-4 text-yellow-400 underline">View
                             Certificate</a>
                     </div>
                     <!-- Certification 3 Ends Here -->
@@ -535,53 +581,14 @@
                             class="w-34 h-34 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">CSS (BASIC) HackerRank</h2>
                         <p class="text-center text-white">Completed CSS Certification from HackerRank.</p>
-                        <a href="assets/images/css-certification-hackerrank.jpg" target="_blank" class="mt-4 text-yellow-400 underline">View
+                        <a href="assets/images/css-certification-hackerrank.jpg" target="_blank"
+                            class="mt-4 text-yellow-400 underline">View
                             Certificate</a>
                     </div>
                     <!-- Certification 4 Ends Here -->
                 </div>
             </section>
             <!-- CERTIFICATIONS SECTION ENDS HERE -->
-
-            <!-- PROJECT SECTION STARTS HERE  -->
-            <section class="bg-gray-800 py-10" id="projects">
-                <div class="container mx-auto px-6">
-                    <h2 class="text-4xl font-bold text-center mb-6 text-yellow-400">Projects</h2>
-                </div>
-                <!-- PROJECT CONTAINER -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-6">
-                    <!-- PROJECT-01 -->
-                    <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
-                        <div class="flex flex-col items-center gap-4">
-                            <img src="assets/images/Desktop-Preview.jpg" alt="Description 3" class="md:h-44 ">
-                            <p class="mb-4 font-semibold text-yellow-400">Desktop View</p>
-                            <img src="assets/images/Mobile-Preview.jpg" alt="Description 3" class="md:h-56 ">
-                            <p class="mb-4 font-semibold text-yellow-400">Mobile View</p>
-                        </div>
-                        <h2 class="text-lg font-bold mb-2">Log In</h2>
-                        <p>This project is a fully responsive login page built using HTML and CSS. It is designed to
-                            provide a seamless user experience across various devices, including desktops, tablets, and
-                            mobile phones.</p>
-                    </div>
-                    <!-- PROJECT-02 -->
-                    <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
-                        <div class="flex flex-col items-center gap-4">
-                            <img src="assets/images/Mobile-preview-02.jpg"" alt=" Description 3" class="md:h-44 ">
-                            <p class="mb-4 font-semibold text-yellow-400">Desktop View</p>
-                            <img src="assets/images/desktop-preview-02.jpg" alt="Description 3" class="md:h-56 ">
-                            <p class="mb-4 font-semibold text-yellow-400">Mobile View</p>
-                        </div>
-                        <h2 class="text-lg font-bold mb-2">Log In</h2>
-                        <p>This login page is a modern, responsive interface designed for Zeroid, providing a secure and
-                            user-friendly experience. It is built using HTML and CSS, featuring a clean and minimalist
-                            design with a strong focus on functionality and aesthetics.</p>
-                    </div>
-                    <!-- PROJECT-03 -->
-                </div>
-            </section>
-            <!-- PROJECT SECTION END HERE  -->
 
             <!-- EDUCATION SECTION STARTS HERE  -->
             <section class="bg-gray-800 py-12" id="education">
