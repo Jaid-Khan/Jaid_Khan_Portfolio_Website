@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="assets/images/head-icon-hero.jpg">
+    <!-- LINK AOS  CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Jaid Khan Portfolio</title>
 </head>
 
 <body class="bg-black font-Poppins">
     <!-- NAVBAR STARTS HERE  -->
     <nav class="box-border items-center w-full bg-yellow-400 text-right flex justify-between px-3 md:px-6 md:py-4">
-        <a href="./"><div class="font-bold text-xl">JAID KHAN</div></a>
+        <a href="./">
+            <div class="font-bold text-xl">JAID KHAN</div>
+        </a>
         <!-- Full Menu for larger screens -->
         <div class="hidden uppercase font-semibold md:block">
             <a class="mx-4 inline-block px-4 py-3 bg-yellow-400 text-black font-medium rounded-lg hover:bg-black hover:text-yellow-400 transition"
@@ -36,15 +40,19 @@
 
     <!-- Mobile Menu -->
     <div id="mobile-menu"
-        class="p-2 hidden flex-col items-center bg-yellow-400 w-full absolute top-10 left-0 py-6 md:hidden z-10">
-        <a class="block w-full text-center my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400 transition" href="#skills">Skills</a>
-        <a class="block w-full text-center my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400 transition" 
+        class="p-2 hidden flex-col items-center bg-yellow-400 w-full absolute top-10 left-0 py-6 md:hidden z-10" >
+        <a class="block w-full text-center my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400 transition"
+            href="#skills">Skills</a>
+        <a class="block w-full text-center my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400 transition"
             href="#experience">Experience</a>
-        <a class="block w-full text-center my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400 transition" href="#projects">Projects</a>
+        <a class="block w-full text-center my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400 transition"
+            href="#projects">Projects</a>
         <a class="block w-full text-center my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400 transition"
             href="#certifications">Certifications</a>
-        <a class="block w-full text-center my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400 transition" href="#education">Education</a>
-        <a class="block w-full text-center my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400 transition" href="#about">About</a>
+        <a class="block w-full text-center my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400 transition"
+            href="#education">Education</a>
+        <a class="block w-full text-center my-2 px-4 py-2 rounded-2xl hover:bg-black hover:text-yellow-400 transition"
+            href="#about">About</a>
     </div>
     <!-- NAVBAR ENDS HERE  -->
 
@@ -52,33 +60,42 @@
     <main class="w-full text-white bg-gray-800 flex justify-center">
         <div id="container">
             <!-- HERO SECTION STARTS HERE -->
-            <section class="max-w-7xl bg-gray-800 justify-around flex flex-col-reverse md:flex-row md:py-4 md:items-center">
+            <section
+                class="max-w-7xl bg-gray-800 justify-around flex flex-col-reverse md:flex-row md:py-4 md:items-center">
                 <!-- INTRO CONTENT  -->
                 <div class="p-10 md:w-1/2">
-                    <h2 class="text-2xl text-yellow-400 font-bold my-2  md:text-4xl ">Hi, I’m Jaid Khan!</h2>
+                    <div data-aos="fade-right">
+                        <h2 class="text-2xl text-yellow-400 font-bold my-2  md:text-4xl ">Hi, I’m Jaid Khan!</h2>
                     <h4 class="text-xl font-semibold my-4 md:text-3xl">Front-End Developer | Tech Enthusiast</h4>
-                    <p class="my-3 text-sm md:text-lg"><span class="font-semibold"><span class="text-2xl">W</span>elcome</span> to my
+                    <p class="my-3 text-sm md:text-lg"><span class="font-semibold"><span
+                                class="text-2xl">W</span>elcome</span> to my
                         portfolio! I am a Graduated Engineer in Computer Science and Engineering. I also hold a Diploma
                         in Electronics and Telecommunication Engineering. I specialize in crafting fully responsive and
                         visually
                         captivating websites. I bring ideas to life with clean and efficient code.</p>
-                    <p class="text-sm md:text-lg">Explore my work below and see how I combine creativity and functionality to deliver exceptional
+                    <p class="text-sm md:text-lg">Explore my work below and see how I combine creativity and
+                        functionality to deliver exceptional
                         user
                         experiences. Let’s build something amazing together!</p>
+                    </div>
                     <div class="flex gap-x-10 my-6">
-                        <div><a href="https://github.com/Jaid-Khan" target="_blank"><img
+                        <div data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"><a href="https://github.com/Jaid-Khan" target="_blank"><img
                                     class="h-10 bg-white border-2 border-yellow-400 hover:border-white transition rounded-full"
                                     src="assets/icons/icons-github.svg" alt=""></a></div>
-                        <div><a href="https://www.linkedin.com/in/jaid-khan-185a63201/" target="_blank"><img
+                        <div data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"><a href="https://www.linkedin.com/in/jaid-khan-185a63201/" target="_blank"><img
                                     class="h-10 border-2  border-yellow-400 hover:border-white transition rounded-md"
                                     src="assets/icons/icons-linkedin.svg" alt=""></a></div>
-                        <div><a href="https://www.instagram.com/itz_jaid_khan/" target="_blank"><img
+                        <div data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom"><a href="https://www.instagram.com/itz_jaid_khan/" target="_blank"><img
                                     class="h-10 border-2  border-yellow-400 hover:border-white transition rounded-md"
                                     src="assets/icons/icons-instagram.svg" alt=""></a></div>
                     </div>
                 </div>
                 <!-- HERO IMAGE  -->
-                <div class="p-10 flex justify-center">
+                <div class="p-10 flex justify-center" data-aos="fade-left" data-aos-anchor="#example-anchor"
+                    data-aos-offset="500" data-aos-duration="500">
                     <img class="drop-shadow-character-shadow  h-60 w-60 mt-10 rounded-full md:h-[420px] md:w-[420px] border-4 border-yellow-400 p-4  hover:border-white transition"
                         src="assets/images/hero-image.png" alt="">
                 </div>
@@ -98,11 +115,12 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-6">
                     <!-- Grid Item 1 HTML Starts Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="fade-right">
                         <img src="assets/images/html-icon.png" alt="Description 1"
                             class="w-24 h-24 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">HTML</h2>
-                        <p class="text-sm md:text-lg">Proficient in writing clean, semantic HTML to build structured and accessible web pages.
+                        <p class="text-sm md:text-lg">Proficient in writing clean, semantic HTML to build structured and
+                            accessible web pages.
                             Experienced in creating responsive layouts with a strong foundation in web standards.
                             Skilled in organizing content for optimal readability and SEO-friendly structure.</p>
                     </div>
@@ -110,23 +128,26 @@
 
                     <!-- Grid Item 2 CSS Starts Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="fade-left">
                         <img src="assets/images/css-icon.png" alt="Description 2"
                             class="w-24 h-24 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">CSS</h2>
-                       <p class="text-sm md:text-lg">Skilled in crafting responsive, visually appealing designs using modern CSS techniques.
-                        Experienced with layouts, animations, and styling for consistent cross-browser compatibility.
-                        Capable of transforming wireframes into clean, polished user interfaces.</p>
+                        <p class="text-sm md:text-lg">Skilled in crafting responsive, visually appealing designs using
+                            modern CSS techniques.
+                            Experienced with layouts, animations, and styling for consistent cross-browser
+                            compatibility.
+                            Capable of transforming wireframes into clean, polished user interfaces.</p>
                     </div>
                     <!-- Grid Item 2 CSS Ends Here-->
 
                     <!-- Grid Item 3 JavaScript Starts Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center"  data-aos="fade-right">
                         <img src="assets/images/js-image.png" alt="Description 3"
                             class="w-20 h-20 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">JavaScript</h2>
-                        <p class="text-sm md:text-lg">Proficient in JavaScript for adding interactivity and dynamic behavior to web pages.
+                        <p class="text-sm md:text-lg">Proficient in JavaScript for adding interactivity and dynamic
+                            behavior to web pages.
                             Experienced in DOM manipulation, event handling, and creating responsive UI components.
                             Comfortable writing clean, modular code to enhance user experience and functionality.</p>
                     </div>
@@ -134,23 +155,26 @@
 
                     <!-- Grid Item 4 Bootstrap Starts Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="fade-left">
                         <img src="assets/images/bootstrap.png" alt="Description 3"
                             class="w20 h-20 object-cover bg-white rounded-2xl mb-4">
                         <h2 class="text-lg font-bold mb-2">Bootstrap</h2>
-                        <p class="text-sm md:text-lg">Experienced in using Bootstrap to build responsive and mobile-first web layouts quickly.
-                            Skilled in leveraging its grid system, pre-built components, and utility classes for efficient design.
+                        <p class="text-sm md:text-lg">Experienced in using Bootstrap to build responsive and
+                            mobile-first web layouts quickly.
+                            Skilled in leveraging its grid system, pre-built components, and utility classes for
+                            efficient design.
                             Capable of customizing Bootstrap elements to match unique project requirements.</p>
                     </div>
                     <!-- Grid Item 4 Bootstrap Ends Here-->
 
                     <!-- Grid Item 5 Tailwind CSS Starts Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="fade-right">
                         <img src="assets/images/Tailwind CSS.png" alt="Description 3"
                             class="w-20 h-20 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">Tailwind CSS</h2>
-                        <p class="text-sm md:text-lg">Proficient in using TailwindCSS to build sleek, responsive user interfaces with utility-first classes.
+                        <p class="text-sm md:text-lg">Proficient in using TailwindCSS to build sleek, responsive user
+                            interfaces with utility-first classes.
                             Skilled in creating custom designs efficiently without writing traditional CSS.
                             Capable of rapidly developing and maintaining clean, consistent layouts across projects.</p>
                     </div>
@@ -158,7 +182,7 @@
 
                     <!-- Grid Item 6 Git & Github Starts Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="fade-left">
                         <div class="flex gap-4">
                             <img src="assets/images/git.png" alt="Description 3"
                                 class="w-20 h-20 object-cover rounded mb-4">
@@ -166,7 +190,8 @@
                                 class="w-20 h-20 bg-white object-cover rounded-full border-2 mb-4">
                         </div>
                         <h2 class="text-lg font-bold mb-2">Git & Github</h2>
-                        <p class="text-sm md:text-lg">Proficient in using Git for version control to manage and track code changes efficiently.
+                        <p class="text-sm md:text-lg">Proficient in using Git for version control to manage and track
+                            code changes efficiently.
                             Experienced with GitHub for collaboration, repository management, and project deployment.
                             Skilled in branching, merging, and resolving conflicts to maintain clean codebases.</p>
                     </div>
@@ -174,43 +199,51 @@
 
                     <!-- Grid Item 7 VS Code Starts Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="fade-right">
                         <img src="assets/images/vscode.png" alt="Description 3"
                             class="w-20 h-20 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">VS Code</h2>
-                        <p class="text-sm md:text-lg">Proficient in using Visual Studio Code as a primary code editor for web development.
-                            Experienced with VS Code extensions, debugging tools, and Git integration for efficient workflows.
-                            Skilled in customizing the editor to enhance productivity and streamline the development process.</p>
+                        <p class="text-sm md:text-lg">Proficient in using Visual Studio Code as a primary code editor
+                            for web development.
+                            Experienced with VS Code extensions, debugging tools, and Git integration for efficient
+                            workflows.
+                            Skilled in customizing the editor to enhance productivity and streamline the development
+                            process.</p>
                     </div>
                     <!-- Grid Item 7 VS Code Ends Here-->
 
                     <!-- Grid Item 8 Wordpress Starts Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="fade-left">
                         <img src="assets/images/wordpress.png" alt="Description 3"
                             class="w-20 h-20 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">Wordpress</h2>
-                        <p class="text-sm md:text-lg">Experienced in using WordPress to build and customize dynamic websites with user-friendly interfaces.
-                            Skilled in theme customization, plugin integration, and content management for seamless site management.
+                        <p class="text-sm md:text-lg">Experienced in using WordPress to build and customize dynamic
+                            websites with user-friendly interfaces.
+                            Skilled in theme customization, plugin integration, and content management for seamless site
+                            management.
                             Proficient in optimizing WordPress sites for performance, security, and responsiveness.</p>
                     </div>
                     <!-- Grid Item 8 Wordpress Ends Here-->
 
                     <!-- Grid Item 9 Canva Starts Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="fade-right">
                         <img src="assets/images/canva.png" alt="Description 3"
                             class="w-20 h-20 bg-white rounded-full object-cover mb-4">
                         <h2 class="text-lg font-bold mb-2">Canva</h2>
-                        <p class="text-sm md:text-lg">Skilled in using Canva to create visually appealing designs for web and social media.
-                            Experienced in designing custom graphics, presentations, and marketing materials with an intuitive interface.
-                            Capable of transforming concepts into polished, professional visuals that align with branding.</p>
+                        <p class="text-sm md:text-lg">Skilled in using Canva to create visually appealing designs for
+                            web and social media.
+                            Experienced in designing custom graphics, presentations, and marketing materials with an
+                            intuitive interface.
+                            Capable of transforming concepts into polished, professional visuals that align with
+                            branding.</p>
                     </div>
                     <!-- Grid Item 9 Canva Ends Here-->
 
                     <!-- Grid Item 10 Windows & Linux Starts Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="fade-left">
                         <div class="flex gap-4">
                             <img src="assets/images/microsoft-windows.png" alt="Description 3"
                                 class="w-20 h-20 object-cover rounded mb-4">
@@ -218,60 +251,72 @@
                                 class="w-20 h-20 object-cover rounded mb-4">
                         </div>
                         <h2 class="text-lg font-bold mb-2">Windows & Linux</h2>
-                        <p class="text-sm md:text-lg">Proficient in navigating and utilizing both Windows and Linux operating systems for development and general tasks.
-                            Experienced with system configurations, software installations, and command-line operations in both environments.
+                        <p class="text-sm md:text-lg">Proficient in navigating and utilizing both Windows and Linux
+                            operating systems for development and general tasks.
+                            Experienced with system configurations, software installations, and command-line operations
+                            in both environments.
                             Capable of troubleshooting issues and optimizing workflows across diverse OS platforms.</p>
                     </div>
                     <!-- Grid Item 10 Windows & Linux Ends Here-->
 
                     <!-- Grid Item 11 Netlify Starts Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="fade-right">
                         <img src="assets/images/icon-netlify.png" alt="Description 2"
                             class="w-40 h-20 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">Netlify</h2>
-                        <p class="text-sm md:text-lg">Experienced in using Netlify for seamless website deployment and hosting.
+                        <p class="text-sm md:text-lg">Experienced in using Netlify for seamless website deployment and
+                            hosting.
                             Skilled in automating continuous deployment workflows with Git integration for fast updates.
-                            Proficient in configuring custom domains, SSL certificates, and serverless functions for scalable sites.</p>
+                            Proficient in configuring custom domains, SSL certificates, and serverless functions for
+                            scalable sites.</p>
                     </div>
                     <!-- Grid Item 11 Netlify Ends Here-->
 
                     <!-- Grid Item 12 VM (Virtual Machines) Strats Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="fade-left">
                         <img src="assets/images/vm-VirtualBox.png" alt="Description 2"
                             class="w-20 h-20 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">VM (Virtual Machines)
                         </h2>
-                        <p class="text-sm md:text-lg">Proficient in setting up and managing Virtual Machines for isolated environments and testing.
-                            Experienced with VM configuration, resource allocation, and performance optimization on platforms like VirtualBox and VMware.
-                            Skilled in running multiple operating systems on a single host for development, testing, and system administration tasks.</p>
+                        <p class="text-sm md:text-lg">Proficient in setting up and managing Virtual Machines for
+                            isolated environments and testing.
+                            Experienced with VM configuration, resource allocation, and performance optimization on
+                            platforms like VirtualBox and VMware.
+                            Skilled in running multiple operating systems on a single host for development, testing, and
+                            system administration tasks.</p>
                     </div>
                     <!-- Grid Item 12 VM (Virtual Machines) Ends Here-->
 
                     <!-- Grid Item 13 Google Workspace (G Suite) Starts Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="fade-right">
                         <img src="assets/images/Google_icon.png" alt="Description 2"
                             class="w-20 h-20 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">Google Workspace (G Suite)
                         </h2>
-                        <p class="text-sm md:text-lg">Proficient in using Google Workspace tools (Docs, Sheets, Slides, Drive, Gmail) for efficient collaboration and productivity.
-                            Skilled in creating, organizing, and sharing documents, spreadsheets, and presentations in a cloud-based environment.
-                            Experienced in managing team collaboration, file storage, and communication through Google Workspace.</p>
+                        <p class="text-sm md:text-lg">Proficient in using Google Workspace tools (Docs, Sheets, Slides,
+                            Drive, Gmail) for efficient collaboration and productivity.
+                            Skilled in creating, organizing, and sharing documents, spreadsheets, and presentations in a
+                            cloud-based environment.
+                            Experienced in managing team collaboration, file storage, and communication through Google
+                            Workspace.</p>
                     </div>
                     <!-- Grid Item 13 Google Workspace (G Suite) Ends Here-->
 
                     <!-- Grid Item 14 Microsoft Office Suite Starts Here-->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="fade-left">
                         <img src="assets/images/microsft-office.png" alt="Description 2"
                             class="w-20 h-20 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">Microsoft Office Suite
                         </h2>
-                        <p class="text-sm md:text-lg">Proficient in using Microsoft Office Suite (Word, Excel, PowerPoint, Outlook) for professional document creation and management.
+                        <p class="text-sm md:text-lg">Proficient in using Microsoft Office Suite (Word, Excel,
+                            PowerPoint, Outlook) for professional document creation and management.
                             Experienced in data analysis, presentations, and email management to optimize productivity.
-                            Skilled in advanced Excel functions, creating dynamic PowerPoint slides, and writing clear, well-organized documents.</p>
+                            Skilled in advanced Excel functions, creating dynamic PowerPoint slides, and writing clear,
+                            well-organized documents.</p>
                     </div>
                     <!-- Grid Item 14 Microsoft Office Suite Ends Here-->
                 </div>
@@ -286,12 +331,12 @@
                     <!-- BSNL Experience Card -->
                     <div class="flex flex-col md:flex-row items-center bg-gray-800 overflow-hidden">
                         <!-- Company Logo -->
-                        <div class="w-full md:w-1/3 p-6 bg-gray-800  flex items-center justify-center">
+                        <div class="w-full md:w-1/3 p-6 bg-gray-800  flex items-center justify-center" data-aos="zoom-out-right">
                             <img src="assets/images/bsnl-logo.png" alt="BSNL Logo"
                                 class="bg-white p-8 h-22 md:h-46 rounded-lg ">
                         </div>
                         <!-- Experience Details -->
-                        <div class="w-full md:w-2/3 p-6">
+                        <div class="w-full md:w-2/3 p-6" data-aos="zoom-out-left">
                             <h3 class="text-2xl font-bold mb-2">Network Technician Apprentice</h3>
                             <p class="mb-4"><strong>Bharat Sanchar Nigam Limited (BSNL), Bhopal</strong></p>
                             <p class=" mb-4">
@@ -315,12 +360,12 @@
                     <!-- Certification Card -->
                     <div class="flex flex-col md:flex-row items-center rounded-lg overflow-hidden">
                         <!-- Certification Image -->
-                        <div class="w-full md:w-1/3 p-6 flex items-center justify-center">
+                        <div class="w-full md:w-1/3 p-6 flex items-center justify-center" data-aos="zoom-out-right">
                             <img src="assets/images/experience-certificate.jpg" alt="Certification"
                                 class="p-4 h-22 md:h-46 rounded-lg ">
                         </div>
                         <!-- Certification Details -->
-                        <div class="w-full md:w-2/3 p-6">
+                        <div class="w-full md:w-2/3 p-6" data-aos="zoom-out-left">
                             <h3 class="text-2xl font-bold mb-2">Certificate of Proficiency</h3>
                             <p class="mb-4"><strong>Electronics & Telecommunication Engineering</strong></p>
                             <p class="">
@@ -345,7 +390,9 @@
 
                     <!-- Project Card 01 Starts Here-->
                     <div
-                        class="text-white border-yellow-400 border-2 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow flex flex-col items-center p-2">
+                        class="text-white border-yellow-400 border-2 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow flex flex-col items-center p-2" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <img src="./assets/images/project01-preview-img.jpg" alt="Project Screenshot"
                             class="w-68 h-56 object-cover rounded-md">
                         <div class="p-4">
@@ -367,7 +414,9 @@
 
                     <!-- Project Card 02 Starts Here-->
                     <div
-                        class="text-white border-yellow-400 border-2 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow  flex flex-col items-center">
+                        class="text-white border-yellow-400 border-2 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow  flex flex-col items-center" data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <div class="flex gap-2 p-2 overflow-x-scroll scroll-smooth" style="scrollbar-width:none ">
                             <img src="./assets/images/project02-preview-img.jpg" alt="Project Screenshot"
                                 class="md:w-68 md:h-56 object-cover rounded-md">
@@ -380,7 +429,8 @@
                         </div>
                         <div class="p-4">
                             <h3 class="text-xl font-semibold mb-2"></h3>
-                            <p class="text-sm md:text-lg mb-4">A responsive multi-page Car Rental website built using HTML and CSS.
+                            <p class="text-sm md:text-lg mb-4">A responsive multi-page Car Rental website built using
+                                HTML and CSS.
                                 Includes essential pages like Register, Sign In, Sign Up, and Forgot Password.
                                 Designed with a clean layout and mobile-friendly interface for seamless user experience.
                             </p>
@@ -398,12 +448,15 @@
 
                     <!-- Project Card 03 Starts Here-->
                     <div
-                        class="text-white border-yellow-400 border-2 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow flex flex-col items-center p-2">
+                        class="text-white border-yellow-400 border-2 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow flex flex-col items-center p-2" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <img src="./assets/images/project03-preview-img.jpg" alt="Project Screenshot"
                             class="md:w-68 md:h-56 object-cover rounded-md">
                         <div class="p-4">
                             <h3 class="text-xl font-semibold mb-2"></h3>
-                            <p class="text-sm md:text-lg mb-4">A modern, responsive login page designed with HTML and CSS for a
+                            <p class="text-sm md:text-lg mb-4">A modern, responsive login page designed with HTML and
+                                CSS for a
                                 smooth user experience.
                                 Features a clean UI with intuitive layout and appealing design elements.
                                 Includes social sign-up options via Google, Facebook, and LinkedIn for user convenience.
@@ -423,12 +476,15 @@
 
                     <!-- Project Card 04 Starts Here-->
                     <div
-                        class="text-white border-yellow-400 border-2 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow flex flex-col items-center p-2">
+                        class="text-white border-yellow-400 border-2 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow flex flex-col items-center p-2" data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <img src="./assets/images/project04-preview-img.jpg" alt="Project Screenshot"
                             class="md:w-68 md:h-56 object-contain rounded-md">
                         <div class="p-4">
                             <h3 class="text-xl font-semibold mb-2"></h3>
-                            <p class="text-sm md:text-lg mb-4">A responsive Cyber Cafe website built using HTML and TailwindCSS
+                            <p class="text-sm md:text-lg mb-4">A responsive Cyber Cafe website built using HTML and
+                                TailwindCSS
                                 with a clean and modern UI.
                                 Offers online services such as bill payments, money withdrawal, and various digital
                                 utilities.
@@ -463,7 +519,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-6">
                     <!-- Certification 1: JavaScript Bootcamp -->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="zoom-out-right">
                         <img src="assets/images/javascript-bootcamp-certification.jpg"
                             alt="JavaScript Bootcamp Certificate" class="w-34 h-34 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">JavaScript Bootcamp</h2>
@@ -476,7 +532,7 @@
 
                     <!-- Certification 2: Git & GitHub -->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="zoom-out-left">
                         <img src="assets/images/git&github-certification.jpg" alt="Git & GitHub Certificate"
                             class="w-34 h-34 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">Git & GitHub</h2>
@@ -489,7 +545,7 @@
 
                     <!-- Certification 3: HTML & CSS Bootcamp -->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="zoom-out-right">
                         <img src="assets/images/html&css-bootcamp-certification.jpg" alt="HTML & CSS Certificate"
                             class="w-34 h-34 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">HTML & CSS Bootcamp</h2>
@@ -502,7 +558,7 @@
 
                     <!-- Certification 4: HackerRankCSS  -->
                     <div
-                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center">
+                        class="border-2 border-yellow-400 p-8 rounded shadow-md flex flex-col items-center justify-center" data-aos="zoom-out-left">
                         <img src="assets/images/css-certification-hackerrank.jpg" alt="HTML & CSS Certificate"
                             class="w-34 h-34 object-cover rounded mb-4">
                         <h2 class="text-lg font-bold mb-2">CSS (BASIC) HackerRank</h2>
@@ -522,7 +578,7 @@
                     <h2 class="text-4xl text-yellow-400 font-bold text-center mb-10">Education</h2>
                     <div class="space-y-8 flex flex-col ">
                         <!-- Bachelor's Degree -->
-                        <div class="flex flex-col sm:flex-row items-start sm:items-center gap-8">
+                        <div class="flex flex-col sm:flex-row items-start sm:items-center gap-8" data-aos="fade-right">
                             <div class="flex items-center justify-center text-white font-bold text-xl ">
                                 <img class="w-28 h-28 p-2 bg-green-500 rounded-md border-2 border-yellow-400"
                                     src="assets/images/graduated.png" alt="">
@@ -534,7 +590,7 @@
                             </div>
                         </div>
                         <!-- Diploma -->
-                        <div class="flex flex-col sm:flex-row items-start sm:items-center gap-8">
+                        <div class="flex flex-col sm:flex-row items-start sm:items-center gap-8" data-aos="fade-right">
                             <div class="flex items-center justify-center ">
                                 <img class="w-28 h-28 md:w-36 p-2 bg-green-500 rounded-md border-2 border-yellow-400"
                                     src="assets/images/diploma.png" alt="">
@@ -558,12 +614,12 @@
                     <div
                         class="flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-12">
                         <!-- Profile Image -->
-                        <div class="flex-shrink-0 w-48 h-48  rounded-full overflow-hidden shadow-lg">
+                        <div class="flex-shrink-0 w-48 h-48  rounded-full overflow-hidden shadow-lg" data-aos="fade-down-right">
                             <img src="assets/images/hero-image.png" alt="Profile Picture"
                                 class="drop-shadow-character-shadow w-full h-full object-cover p-2 border-2 border-yellow-400 rounded-full">
                         </div>
                         <!-- About Me Intro-->
-                        <div>
+                        <div data-aos="fade-down-left">
                             <p class="text-sm md:text-lg leading-relaxed mb-4">
                                 Hello! I'm <span class="font-semibold">Jaid Khan</span>, a passionate and results-driven
                                 web developer with a strong foundation in
@@ -592,10 +648,12 @@
                                 is to collaborate with innovative teams and contribute to meaningful projects that make
                                 a difference.
                             </p>
-                            <a href="#projects"
+                            <div data-aos="flip-right">
+                                <a href="#projects"
                                 class="inline-block mt-6 px-6 py-3 bg-yellow-400 text-black font-medium rounded-lg shadow-lg hover:bg-black hover:text-yellow-400 transition">
                                 View My Projects
                             </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -606,6 +664,11 @@
     </main>
     <!-- MAIN ENDS HERE  -->
     <script src="script.js"></script>
+    <!-- Link AOS JS  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

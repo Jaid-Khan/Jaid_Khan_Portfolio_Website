@@ -4,3 +4,7 @@
     src: url('assets/fonts/poppins/Poppins-Light.ttf');
   }
   
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
